@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Webviewing</string>
+    <string name="tvOpenYahoo">ボタン押下でYahoo!開きます</string>
+    <string name="btnOpenYahoo">Open in Custom Tab</string>
+    <string name="btnOpenYahoo2">Open in Web View</string>
+</resources>
