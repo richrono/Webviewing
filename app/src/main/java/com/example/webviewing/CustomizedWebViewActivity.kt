@@ -13,7 +13,7 @@ class CustomizedWebViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_view)
-        val webView: WebView = findViewById(R.id.WV_Yahoo)
+        val webView: WebView = findViewById(R.id.WV2_Yahoo)
         webView.settings.javaScriptEnabled = true
         webView.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(

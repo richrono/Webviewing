@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         }
         //ボタン３つめはカスタマイズしたWebViewを別アクティビティで開く
         val btnWebViewActivity3: Button = findViewById(R.id.btnWebView3)
-        btnWebViewActivity2.setOnClickListener {
+        btnWebViewActivity3.setOnClickListener {
             val intent = Intent(applicationContext, CustomizedWebViewActivity::class.java)
             startActivity(intent)
         }
